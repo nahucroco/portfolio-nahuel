@@ -31,13 +31,12 @@ export default function Hero() {
                     </h1>
 
                     <h2 className="text-xl md:text-2xl text-zinc-300 mt-6">
-                        Desarrollador - Estudiante de Ingeniería en Sistemas de Información
+                        Desarrollador Full Stack - Estudiante de Ingeniería en Sistemas de Información
                     </h2>
 
                     <p className="mt-8 text-zinc-400 text-lg max-w-2xl leading-relaxed">
-                        Construyo aplicaciones web, herramientas de
-                        automatización y productos digitales utilizando
-                        Python, Django, React e Inteligencia Artificial.
+                        Construyo aplicaciones web y productos digitales utilizando
+                        diversas tecnologías y lenguajes de programación.
                     </p>
 
                     <div className="flex flex-wrap gap-4 mt-10">

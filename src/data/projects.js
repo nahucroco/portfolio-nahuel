@@ -2,50 +2,125 @@ export const projects = [
   {
     id: 1,
     title: "Ticas",
+    type: "mobile",
     description:
-      "Plataforma para fútbol amateur enfocada en gestión de partidos, estadísticas y torneos.",
+      "Plataforma para fútbol amateur enfocada en gestión de partidos, estadísticas y torneos, utilizada en torneo real de fútbol.",
 
     technologies: [
+      "Python",
       "Django",
-      "React",
-      "PostgreSQL"
+      "HTML5",
+      "CSS3",
+      "SQLite",
+      "PostgreSQL",
+      "Figma",
+      "Git",
+      "Scrum",
+      "Matplotlib",
+      "Análisis de sistema",
+      "Arquitectura de software",
     ],
 
-    github: "#",
+    images: [
+      "/projects/ticas/home.png",
+      "/projects/ticas/equipo_1.png",
+      "/projects/ticas/equipo_2.png",
+      "/projects/ticas/equipo_3.png",
+      "/projects/ticas/equipo_4.png",
+      "/projects/ticas/perfil_1.png",
+      "/projects/ticas/perfil_2.png",
+      "/projects/ticas/torneo_1.png",
+      "/projects/ticas/torneo_2.png",
+
+    ],
+
+    github: "https://github.com/agenciaoctopush-ctrl/ticas",
     demo: "#",
   },
-
   {
     id: 2,
-    title: "Sistema Bancario",
-
+    title: "TeodePagos",
+    type: "mobile",
     description:
-      "Sistema académico para gestión de cuentas corrientes, transferencias y entidades financieras.",
+      "App web para gestionar movimientos y cuentas bancarias, utilizada en escuela secundaria para muestra masiva.",
 
     technologies: [
+      "Python",
       "Django",
-      "DRF",
-      "PostgreSQL"
+      "Javascript",
+      "React",
+      "HTML5",
+      "CSS3",
+      "SQLite",
+      "PostgreSQL",
+      "Figma",
+      "Git",
+      "Scrum",
+      "Análisis de sistema",
+      "Arquitectura de software",
     ],
 
-    github: "#",
+    images: [
+      "/projects/teodepagos/home.png",
+      "/projects/teodepagos/login.png",
+      "/projects/teodepagos/monto.png",
+      "/projects/teodepagos/recientes.png",
+      "/projects/teodepagos/transferir.png",
+
+    ],
+
+    github: "https://github.com/agenciaoctopush-ctrl/teodepagos",
     demo: "#",
   },
-
   {
     id: 3,
-    title: "Automatización Escolar",
-
+    title: "Consultorio",
+    type: "desktop",
     description:
-      "Sistema para automatizar el proceso de pago y validación de cuotas escolares.",
+      "App de escritorio para gestionar turnos, pacientes, médicos y obras sociales en un consultorio médico, utilizada en clínica real para gestión diaria.",
 
     technologies: [
-      "Django",
-      "React",
-      "PostgreSQL"
+      "Python",
+      "Tkinter",
+      "Archivos JSON",
+      "Diseño UX/UI",
     ],
 
-    github: "#",
+    images: [
+      "/projects/consultorio/medicos.png",
+      "/projects/consultorio/obras_sociales.png",
+      "/projects/consultorio/pacientes.png",
+      "/projects/consultorio/turnos.png",
+      "/projects/consultorio/turnos.png",
+      "/projects/consultorio/turnos.png",
+    ],
+
+    github: "https://github.com/nahucroco/Consultorio",
     demo: "#",
   },
+  {
+    id: 4,
+    title: "Landing page - Taller Metalúrgico Loria",
+    type: "desktop",
+    description:
+      "App de escritorio para gestionar turnos, pacientes, médicos y obras sociales en un consultorio médico, utilizada en clínica real para gestión diaria.",
+
+    technologies: [
+      "Python",
+      "Tkinter",
+    ],
+
+    images: [
+      "/projects/taller_loria/home.png",
+      "/projects/taller_loria/home2.png",
+      "/projects/taller_loria/home3.png",
+      "/projects/taller_loria/home4.png",
+      "/projects/taller_loria/servicios.png",
+      "/projects/taller_loria/trabaja_con_nosotros.png",
+      "/projects/taller_loria/footer.png",
+    ],
+
+    github: "https://github.com/nahucroco/Consultorio",
+    demo: "#",
+  }
 ];

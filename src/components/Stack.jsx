@@ -26,14 +26,6 @@ export default function Stack() {
       ]
     },
     {
-      title: "IA y Datos",
-      items: [
-        "OpenAI",
-        "Gemini",
-        "Pandas"
-      ]
-    },
-    {
       title: "Herramientas",
       items: [
         "Git",
