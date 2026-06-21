@@ -39,6 +39,62 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Página empresarial - Taller Metalúrgico Loria",
+    type: "desktop",
+    description:
+      "Página empresarial para taller metalúrgico, enfocada en mostrar servicios, equipo y contacto, utilizada en sitio web real del taller.",
+
+    technologies: [
+      "JavaScript",
+      "React",
+      "HTML5",
+      "CSS3",
+      "Figma",
+      "Git",
+      "Scrum",
+    ],
+
+    images: [
+      "/projects/taller_loria/home.png",
+      "/projects/taller_loria/home2.png",
+      "/projects/taller_loria/home3.png",
+      "/projects/taller_loria/home4.png",
+      "/projects/taller_loria/servicios.png",
+      "/projects/taller_loria/trabaja_con_nosotros.png",
+      "/projects/taller_loria/footer.png",
+    ],
+
+    github: "https://github.com/Jevix/Loria",
+    demo: "https://metalurgicaloria.com.ar/",
+  },
+  {
+    id: 3,
+    title: "Consultorio",
+    type: "desktop",
+    description:
+      "App de escritorio para gestionar turnos, pacientes, médicos y obras sociales en un consultorio médico, utilizada en clínica real para gestión diaria.",
+
+    technologies: [
+      "Python",
+      "Tkinter",
+      "Archivos JSON",
+      "Diseño UX/UI",
+    ],
+
+    images: [
+      "/projects/consultorio/medicos.png",
+      "/projects/consultorio/obras_sociales.png",
+      "/projects/consultorio/pacientes.png",
+      "/projects/consultorio/turnos.png",
+      "/projects/consultorio/turnos.png",
+      "/projects/consultorio/turnos.png",
+    ],
+
+    github: "https://github.com/nahucroco/Consultorio",
+    demo: "#",
+  },
+  {
+    id: 4,
     title: "TeodePagos",
     type: "mobile",
     description:
@@ -73,54 +129,31 @@ export const projects = [
     demo: "#",
   },
   {
-    id: 3,
-    title: "Consultorio",
+    id: 5,
+    title: "Página empresarial - Dualsafe",
     type: "desktop",
     description:
-      "App de escritorio para gestionar turnos, pacientes, médicos y obras sociales en un consultorio médico, utilizada en clínica real para gestión diaria.",
+      "Página empresarial para empresa de seguridad, enfocada en mostrar productos, clientes y contacto.",
 
     technologies: [
-      "Python",
-      "Tkinter",
-      "Archivos JSON",
-      "Diseño UX/UI",
+      "JavaScript",
+      "React",
+      "HTML5",
+      "CSS3",
+      "Figma",
+      "Git",
+      "Scrum",
     ],
 
     images: [
-      "/projects/consultorio/medicos.png",
-      "/projects/consultorio/obras_sociales.png",
-      "/projects/consultorio/pacientes.png",
-      "/projects/consultorio/turnos.png",
-      "/projects/consultorio/turnos.png",
-      "/projects/consultorio/turnos.png",
+      "/projects/dualsafe/home1.png",
+      "/projects/dualsafe/home2.png",
+      "/projects/dualsafe/contacto.png",
+      "/projects/dualsafe/producto1.png",
+      "/projects/dualsafe/productos.png",
     ],
 
-    github: "https://github.com/nahucroco/Consultorio",
-    demo: "#",
+    github: "https://github.com/agenciaoctopush-ctrl/dual-safe",
+    demo: "https://dualsafeseguridad.com.ar/",
   },
-  {
-    id: 4,
-    title: "Landing page - Taller Metalúrgico Loria",
-    type: "desktop",
-    description:
-      "App de escritorio para gestionar turnos, pacientes, médicos y obras sociales en un consultorio médico, utilizada en clínica real para gestión diaria.",
-
-    technologies: [
-      "Python",
-      "Tkinter",
-    ],
-
-    images: [
-      "/projects/taller_loria/home.png",
-      "/projects/taller_loria/home2.png",
-      "/projects/taller_loria/home3.png",
-      "/projects/taller_loria/home4.png",
-      "/projects/taller_loria/servicios.png",
-      "/projects/taller_loria/trabaja_con_nosotros.png",
-      "/projects/taller_loria/footer.png",
-    ],
-
-    github: "https://github.com/nahucroco/Consultorio",
-    demo: "#",
-  }
 ];

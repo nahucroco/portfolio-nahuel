@@ -27,7 +27,7 @@ export default function ProjectCarousel({
             className="
               w-[220px]
               h-[450px]
-              rounded-[32px]
+              rounded-xl
               overflow-hidden
               border
               border-zinc-800
@@ -52,7 +52,7 @@ export default function ProjectCarousel({
           className="
             w-full
             h-80
-            object-contain
+            object-cover
             rounded-xl
             bg-zinc-950
           "
